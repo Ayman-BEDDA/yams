@@ -91,3 +91,13 @@ function playYams(diceResults) {
 const diceResults = rollFiveDice();
 
 playYams(diceResults);
+
+module.exports = {
+    rollFiveDice,
+    isBrelan,
+    isCarre,
+    isFull,
+    isYams,
+    isSuite,
+    playYams
+};
